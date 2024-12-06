@@ -16,10 +16,10 @@ public class Persona {
     }
 
     public static void main(String[] args) {
-        Persona persona1 = new Persona("Oscar", 30, 1.70);
+        Persona persona = new Persona("Oscar", 30, 1.70);
 
         System.out.println("Datos de la persona:");
-        persona1.imprimirDatos();
+        persona.imprimirDatos();
 
     }
 }
